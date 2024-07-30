@@ -1,0 +1,6 @@
+
+
+# for å lagre CTRL + O
+# for å gå ut CTRL + X 
+sudo crontab -e
+* * * * * python /home/pi/Documents/Watering_system/app/waterpump_scheduler.py
